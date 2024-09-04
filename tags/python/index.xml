@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python | Hugo Academic CV Theme</title>
-    <link>https://example.com/tags/python/</link>
-      <atom:link href="https://example.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <title>Python | Muagmar Urzhindorzh</title>
+    <link>http://localhost:1313/tags/python/</link>
+      <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <description>Python</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>Python</title>
-      <link>https://example.com/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
     </image>
     
     <item>
       <title>AI_Arrow</title>
-      <link>https://example.com/project/ai_arrow/</link>
+      <link>http://localhost:1313/project/ai_arrow/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/ai_arrow/</guid>
-      <description>&lt;p&gt;Летом я участвовал в интенсиве по машинному обучению AI_Arrow Middle track. Сегодня я расскажу об одном проекте, в котором по имеющимся данным нужно предсказать, закроет ли пользователь свой аккаунт в банке или нет.&lt;/p&gt;
-&lt;h2 id=&#34;начало&#34;&gt;Начало&lt;/h2&gt;
-&lt;p&gt;Рассмотрим метрики для трёх основных задач машинного обучения:&lt;/p&gt;
+      <guid>http://localhost:1313/project/ai_arrow/</guid>
+      <description>&lt;p&gt;In the summer, I participated in the AI_Arrow Middle track machine learning intensive. Today I will talk about one project in which, according to available data, it is necessary to specify whether the user will close his bank account or not.&lt;/p&gt;
+&lt;h2 id=&#34;the-beginning&#34;&gt;The beginning&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s look at metrics for three main machine learning tasks:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Бинарная классификация&lt;/li&gt;
-&lt;li&gt;Многоклассовая классификация&lt;/li&gt;
-&lt;li&gt;Регрессия&lt;/li&gt;
+&lt;li&gt;Binary classification&lt;/li&gt;
+&lt;li&gt;Multiclass classification&lt;/li&gt;
+&lt;li&gt;Regression&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Для каждой из задач мы рассмотрим &amp;ldquo;игрушечный пример&amp;rdquo; с kaggle соревнований, где мы построим несколько моделей и сравним их по основным метриками.&lt;/p&gt;
-&lt;p&gt;Для начала давайте установим необходимые библиотеки и импортируем все нужные модули.&lt;/p&gt;
+&lt;p&gt;For each of the tasks, we will consider a &amp;ldquo;toy example&amp;rdquo; from kaggle competitions, where we will build several models and compare them by basic metrics.&lt;/p&gt;
+&lt;p&gt;First, let&amp;rsquo;s install the necessary libraries and import all the necessary modules.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pip&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;catboost&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Импорт библиотек&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;warnings&lt;/span&gt;
@@ -48,23 +48,20 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sklearn.linear_model&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;LinearRegression&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sklearn.ensemble&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;RandomForestRegressor&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;catboost&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;CatBoostRegressor&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;бинарная-классификация&#34;&gt;Бинарная классификация&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;binary-classification&#34;&gt;Binary classification&lt;/h2&gt;
 &lt;img src=&#34;1.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;h3 id=&#34;задача&#34;&gt;Задача&lt;/h3&gt;
-&lt;p&gt;А первая задача, которую мы рассмотрим - это задача бинарной классификации (&lt;a href=&#34;https://www.kaggle.com/competitions/playground-series-s4e1/overview&#34;&gt;https://www.kaggle.com/competitions/playground-series-s4e1/overview&lt;/a&gt;) - по имеющимся данным предсказать, закроет ли пользователь свой аккаунт в банке или нет.&lt;/p&gt;
-&lt;p&gt;Наш план будет следующим:&lt;/p&gt;
+&lt;h3 id=&#34;task&#34;&gt;Task&lt;/h3&gt;
+&lt;p&gt;And the first task that we will consider is the binary classification problem (&lt;a href=&#34;https://www.kaggle.com/competitions/playground-series-s4e1/overview&#34;&gt;https://www.kaggle.com/competitions/playground-series-s4e1/overview&lt;/a&gt; ) - according to available data, predict whether the user will close his bank account or not.&lt;/p&gt;
+&lt;p&gt;Our plan will be as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Посмотрим на данные, посчитаем некоторые статистики&lt;/li&gt;
-&lt;li&gt;Построим модели:
-&lt;ul&gt;
+&lt;li&gt;Let&amp;rsquo;s look at the data, calculate some statistics&lt;/li&gt;
+&lt;li&gt;Let&amp;rsquo;s build models:&lt;/li&gt;
 &lt;li&gt;LogReg&lt;/li&gt;
 &lt;li&gt;Random Forest&lt;/li&gt;
 &lt;li&gt;Catoost&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;И сравним качество работы данных моделей.&lt;/p&gt;
-&lt;h3 id=&#34;загрузка-данных&#34;&gt;Загрузка данных&lt;/h3&gt;
+&lt;p&gt;And let&amp;rsquo;s compare the quality of these models.&lt;/p&gt;
+&lt;h3 id=&#34;uploading-data&#34;&gt;Uploading data&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# загрузим наши данные&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;train_data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;train.csv&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;    &lt;span class=&#34;c1&#34;&gt;# train data&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;test_data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;test.csv&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;      &lt;span class=&#34;c1&#34;&gt;# test data&lt;/span&gt;
@@ -73,24 +70,24 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;train_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# посмотрим на test данные&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;test_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;То есть наши данные содержат следующую инфорацию о пользователях:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That is, our data contains the following information about users:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Customer ID: уникальный ID для пользователя&lt;/li&gt;
-&lt;li&gt;Surname: Фамилия/имя пользователя&lt;/li&gt;
-&lt;li&gt;Credit Score: кредитный счёт (балл/оценка?)&lt;/li&gt;
-&lt;li&gt;Geography: страна резиденства пользователя&lt;/li&gt;
-&lt;li&gt;Gender: гендер пользователя&lt;/li&gt;
-&lt;li&gt;Age: возраст пользователя&lt;/li&gt;
-&lt;li&gt;Tenure: сколько лет пользователь пользуется банковскими услугами&lt;/li&gt;
-&lt;li&gt;Balance: баланс пользователя&lt;/li&gt;
-&lt;li&gt;NumOfProducts: количество разных продуктов банка у пользователя (таких как сберегательный счёт, кредитная карта и др.)&lt;/li&gt;
-&lt;li&gt;HasCrCard: есть ли у пользователя кредитная карта&lt;/li&gt;
-&lt;li&gt;IsActiveMember: активный ли пользователь банка&lt;/li&gt;
-&lt;li&gt;EstimatedSalary: зарплата пользователя&lt;/li&gt;
+&lt;li&gt;Customer ID: a unique identifier for the user&lt;/li&gt;
+&lt;li&gt;Last name: Amilia/I am a user&lt;/li&gt;
+&lt;li&gt;Credit rating: credit score (score/oenca?)&lt;/li&gt;
+&lt;li&gt;Geography: the user&amp;rsquo;s country of origin&lt;/li&gt;
+&lt;li&gt;Gender: male user&lt;/li&gt;
+&lt;li&gt;Age: the age of the user&lt;/li&gt;
+&lt;li&gt;Term of office: has been using banking services for several years&lt;/li&gt;
+&lt;li&gt;Balance: User&amp;rsquo;s balance&lt;/li&gt;
+&lt;li&gt;Number of products: the number of products for the bank and users (as well as a separation account, credit card, etc.)&lt;/li&gt;
+&lt;li&gt;Bank card: You are a credit card user&lt;/li&gt;
+&lt;li&gt;Is an active participant: an active user of the bank&lt;/li&gt;
+&lt;li&gt;Estimated salary: the user&amp;rsquo;s salary&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;В результате мы хотим предсказать:&lt;/p&gt;
+&lt;p&gt;As a result, we want to predict:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Exited: Whether the customer has churned (1 = yes, 0 = no)&lt;/li&gt;
+&lt;li&gt;Completed: Has the client been shot down (1 = yes, 0 = no)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Посмотрим, сколько у нас данных&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -105,10 +102,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Test Data:&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Количество строк: &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;num_test_rows&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Количество столбцов: &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;num_test_columns&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Посмотрим на каждую из колонок, есть ли там пропуски или Nans:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s look at each of the columns to see if there are gaps or Nuns:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;train_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;info&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;test_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;info&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Проверим, есть ли в данных дупликаты:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s check if there are duplicates in the data:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Count duplicate rows in train_data&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;train_duplicates&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;train_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;duplicated&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sum&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -118,20 +115,20 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Print the results&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Количество дупликатов в тренировочных данных: &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;train_duplicates&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;sa&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Количество дупликатов в тестовых данных: &lt;/span&gt;&lt;span class=&#34;si&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;test_duplicates&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Таким образом, нам повезло - данные не содержат пропусков, дупликатов и нанов! Можем с ними работать!&lt;/p&gt;
-&lt;h2 id=&#34;визуализация-данных&#34;&gt;Визуализация данных&lt;/h2&gt;
-&lt;p&gt;Напомним, что чаще всего лучше посмотреть на то, что имеется, прежде чем с этим работать. На примере задачи бинарной классификации мы напомним, как можно визуализировать имеющиеся данные.&lt;/p&gt;
-&lt;p&gt;Прежде чем строить модели, немного повизуализируем то, что у нас есть.&lt;/p&gt;
-&lt;h3 id=&#34;наш-таргет&#34;&gt;Наш таргет&lt;/h3&gt;
-&lt;p&gt;Сначала посмотрим на наш таргет.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Thus, we were lucky - the data does not contain omissions, duplicates and is new! We can work with them!&lt;/p&gt;
+&lt;h2 id=&#34;data-visualization&#34;&gt;Data visualization&lt;/h2&gt;
+&lt;p&gt;Recall that it is often better to look at what is available before working with it. Using the example of a binary classification problem, we will remind you how to visualize the available data.&lt;/p&gt;
+&lt;p&gt;Before building models, let&amp;rsquo;s visualize a little what we have.&lt;/p&gt;
+&lt;h3 id=&#34;our-target&#34;&gt;Our target&lt;/h3&gt;
+&lt;p&gt;First, let&amp;rsquo;s look at our target.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;palette&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;indigo&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;orangered&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sns&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;countplot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Exited&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;train_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;palette&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;palette&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Стоит запомнить, что у нас несбалансированная выборка, где элементов одного класса значительно больше другого!&lt;/p&gt;
-&lt;h3 id=&#34;категориальные-признаки&#34;&gt;Категориальные признаки&lt;/h3&gt;
-&lt;p&gt;Теперь визуализируем категориальные признаки.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It is worth remembering that we have an unbalanced sample, where the elements of one class are much larger than the other!&lt;/p&gt;
+&lt;h3 id=&#34;categorical-features&#34;&gt;Categorical features&lt;/h3&gt;
+&lt;p&gt;Now we visualize the categorical features.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;seaborn&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sns&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;cat_columns&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Gender&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Geography&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;HasCrCard&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;IsActiveMember&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
@@ -151,8 +148,8 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;tight_layout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;plt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;show&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;численные-признаки&#34;&gt;Численные признаки&lt;/h3&gt;
-&lt;p&gt;Теперь перейдём к численным признакам.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;numerical-signs&#34;&gt;Numerical signs&lt;/h3&gt;
+&lt;p&gt;Now let&amp;rsquo;s move on to the numerical features.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;num_columns&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;num_columns&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Balance&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -249,20 +246,20 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;train_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;num_colums&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;CreditScore&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Balance&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;EstimatedSalary&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Age&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;NumOfProducts&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;cat_columns&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Geography&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Gender&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Tenure&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;HasCrCard&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;IsActiveMember&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;категориальные-фичи&#34;&gt;Категориальные фичи&lt;/h3&gt;
-&lt;p&gt;Категориальные фичи обрабатывааются с помощью LabelEncoder, который кодирует категориальные признаки, присваивая каждой уникальной категории числовое значение.&lt;/p&gt;
-&lt;p&gt;Как работает LabelEncoder?&lt;/p&gt;
-&lt;p&gt;LabelEncoder присваивает каждой уникальной категории числовую метку (label). Процесс преобразования состоит из двух этапов:&lt;/p&gt;
-&lt;p&gt;Обучение (fit):&lt;/p&gt;
-&lt;p&gt;LabelEncoder анализирует данные и выявляет все уникальные категории, создавая для них числовые метки.&lt;/p&gt;
-&lt;p&gt;Например, для категорий [&amp;lsquo;cat&amp;rsquo;, &amp;lsquo;dog&amp;rsquo;, &amp;lsquo;fish&amp;rsquo;] метки могут быть присвоены следующим образом:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;categorical-features-1&#34;&gt;Categorical features&lt;/h3&gt;
+&lt;p&gt;Categorical features are processed using LabelEncoder, which encodes categorical features by assigning a numeric value to each unique category.&lt;/p&gt;
+&lt;p&gt;How does LabelEncoder work?&lt;/p&gt;
+&lt;p&gt;LabelEncoder assigns a numeric label to each unique category. The conversion process consists of two stages:&lt;/p&gt;
+&lt;p&gt;Training (fit):&lt;/p&gt;
+&lt;p&gt;LabelEncoder analyzes the data and identifies all unique categories by creating numeric labels for them.&lt;/p&gt;
+&lt;p&gt;For example, for the categories [&amp;lsquo;cat&amp;rsquo;, &amp;lsquo;dog&amp;rsquo;, &amp;lsquo;fish&amp;rsquo;], labels can be assigned as follows:&lt;/p&gt;
 &lt;p&gt;cat → 0&lt;/p&gt;
 &lt;p&gt;dog → 1&lt;/p&gt;
 &lt;p&gt;fish → 2&lt;/p&gt;
-&lt;p&gt;Преобразование (transform):&lt;/p&gt;
-&lt;p&gt;После обучения LabelEncoder может преобразовать исходные категориальные данные в их числовые метки.&lt;/p&gt;
-&lt;p&gt;Например, для списка [&amp;lsquo;dog&amp;rsquo;, &amp;lsquo;cat&amp;rsquo;, &amp;lsquo;dog&amp;rsquo;, &amp;lsquo;fish&amp;rsquo;] он преобразует его в [1, 0, 1, 2].&lt;/p&gt;
-&lt;p&gt;Давайте посмотрим, как он работает на нашем примере.&lt;/p&gt;
+&lt;p&gt;Transformation (transform):&lt;/p&gt;
+&lt;p&gt;After training, the LabelEncoder can convert the original categorical data into their numeric labels.&lt;/p&gt;
+&lt;p&gt;For example, for a list [&amp;lsquo;dog&amp;rsquo;, &amp;lsquo;cat&amp;rsquo;, &amp;lsquo;dog&amp;rsquo;, &amp;lsquo;fish&amp;rsquo;], it converts it to [1, 0, 1, 2].&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s see how it works in our example.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# рассмотрим, например, работу нашего энкодера на колонке гендер.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;gender_column&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;train_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Gender&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
@@ -283,9 +280,9 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;train_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;численные-фичи&#34;&gt;Численные фичи&lt;/h3&gt;
-&lt;p&gt;Для обработки численных признаков мы будем использовать StandardScaler из библиотеки sklearn.&lt;/p&gt;
-&lt;p&gt;StandardScaler вычисляет среднее значение и стандартное отклонение по каждому признаку в обучающем наборе данных, а затем использует эти значения для преобразования данных. Каждый признак (столбец) в наборе данных центрируется (среднее значение становится равным 0) и масштабируется (стандартное отклонение становится равным 1).&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;numerical-features&#34;&gt;Numerical features&lt;/h3&gt;
+&lt;p&gt;To process numerical features, we will use the Standard Scale r from the sklearn library.&lt;/p&gt;
+&lt;p&gt;StandardScaler calculates the mean and standard deviation for each feature in the training dataset, and then uses these values to transform the data. Each feature (column) in the dataset is centered (the average value becomes 0) and scaled (the standard deviation becomes 1).&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;sklearn.preprocessing&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;StandardScaler&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;col&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;num_colums&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
@@ -294,7 +291,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;test_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;col&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sc&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;transform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;test_data&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;col&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]])&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;train_data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Теперь дропнем некоторые колоночки за ненадобностю на данном этапе :)&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now let&amp;rsquo;s drop some columns as unnecessary at this stage :)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;!&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pip&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;optuna&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;catboost&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Pool&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cv&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;optuna&lt;/span&gt;
@@ -355,24 +352,24 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Разделение данных на обучающую и тестовую выборки&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;X_train&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;X_val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_train&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_val&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;train_test_split&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_train&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;y_train&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;test_size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;random_state&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;42&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;выводы&#34;&gt;Выводы&lt;/h2&gt;
-&lt;p&gt;Метрики в машинном обучении играют ключевую роль в оценке качества моделей и их производительности. Для разных типов задач применяются различные метрики, каждая из которых имеет свои особенности и области применения.&lt;/p&gt;
-&lt;p&gt;В данном вебинаре мы с вами рассмотрели задачи бинарной и многоклассовой классификации, а также регрессии. Давайте коротко вспомним, какие метрики можно использовать в данных задачах.&lt;/p&gt;
-&lt;p&gt;В задачах бинарной классификации наиболее часто используемые метрики включают:&lt;/p&gt;
-&lt;p&gt;Accuracy (Точность): доля правильно предсказанных классов среди всех наблюдений.&lt;/p&gt;
-&lt;p&gt;Error Rate (Ошибка): доля неправильных предсказаний.&lt;/p&gt;
-&lt;p&gt;Precision (Точность): доля истинно положительных предсказаний среди всех предсказанных положительных.&lt;/p&gt;
-&lt;p&gt;Recall (Полнота): доля истинно положительных предсказаний среди всех истинных положительных.&lt;/p&gt;
-&lt;p&gt;F1 Score: метрика учитывает и Precision и Recall.&lt;/p&gt;
-&lt;p&gt;ROC-AUC: площадь под кривой ошибок, показывающая соотношение между True Positive Rate и False Positive Rate.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Metrics in machine learning play a key role in evaluating the quality of models and their performance. Different metrics are used for different types of tasks, each of which has its own specifics and scope.&lt;/p&gt;
+&lt;p&gt;In this webinar, we discussed the issues of binary and multiclass classification, as well as regression. Let&amp;rsquo;s briefly look at what metrics can be used in these tasks.&lt;/p&gt;
+&lt;p&gt;In the makings of binary classification, a larger number of metrics used include:&lt;/p&gt;
+&lt;p&gt;Accuracy: the proportion of correctly represented classes among all observations.&lt;/p&gt;
+&lt;p&gt;Error Rate: The percentage of incorrect assumptions.&lt;/p&gt;
+&lt;p&gt;Precision: the proportion of referentially complete representations among all submitted complete ones.&lt;/p&gt;
+&lt;p&gt;Recall (Completeness): the proportion of referentially complete prepositions among all referentially complete ones.&lt;/p&gt;
+&lt;p&gt;F1 Score: The metric teaches both Precision and Recall.&lt;/p&gt;
+&lt;p&gt;ROC-AUC: The area under the error curve showing the ratio between True Positive Rate and False Positive Rate.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Learn Python</title>
-      <link>https://example.com/teaching/python/</link>
+      <link>http://localhost:1313/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/teaching/python/</guid>
+      <guid>http://localhost:1313/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -419,7 +416,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://example.com/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;

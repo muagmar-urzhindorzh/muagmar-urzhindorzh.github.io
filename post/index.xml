@@ -1,166 +1,167 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog | Hugo Academic CV Theme</title>
-    <link>https://example.com/post/</link>
-      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <title>Blog | Muagmar Urzhindorzh</title>
+    <link>http://localhost:1313/post/</link>
+      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
       <title>Blog</title>
-      <link>https://example.com/post/</link>
+      <link>http://localhost:1313/post/</link>
     </image>
     
     <item>
-      <title>Как прошла моя неделя 4</title>
-      <link>https://example.com/post/post7_last-week/</link>
+      <title>How was my week? x4</title>
+      <link>http://localhost:1313/post/post7_last-week/</link>
       <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post7_last-week/</guid>
-      <description>&lt;p&gt;После посещения Шанхая я отправился в Пекин, чтобы изучить его знаменитые достопримечательности. В первую очередь я решил посетить Запретный город, известный своим богатым историческим наследием и архитектурой. Прогуливаясь по его территории, я ощутил атмосферу древности и величия китайской культуры.&lt;/p&gt;
+      <guid>http://localhost:1313/post/post7_last-week/</guid>
+      <description>&lt;p&gt;After visiting Shanghai, I went to Beijing to explore its famous sights. First of all, I decided to visit the Forbidden City, famous for its rich historical heritage and architecture. Walking through its territory, I felt the atmosphere of antiquity and the greatness of Chinese culture.&lt;/p&gt;
 &lt;img src=&#34;1.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;Далее я отправился в Храм Неба, который славится своей красотой и гармоничным сочетанием природы и архитектуры. Здесь я наблюдал за церемониями поклонения небу, которые проводятся каждый год.
-Следующим пунктом моего маршрута стал Летний дворец, расположенный на окраине Пекина. Этот парк поражает своей красотой и разнообразием ландшафтов, здесь можно отдохнуть от городской суеты и насладиться природой.&lt;/p&gt;
+&lt;p&gt;Next, I went to the Temple of Heaven, which is famous for its beauty and harmonious combination of nature and architecture. Here I watched the sky worship ceremonies that take place every year.
+The next point on my route was the Summer Palace, located on the outskirts of Beijing. This park impresses with its beauty and variety of landscapes, here you can relax from the hustle and bustle of the city and enjoy nature.&lt;/p&gt;
 &lt;img src=&#34;2.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;Также я посетил Великую китайскую стену, которая является символом могущества и величия китайской цивилизации. Прогулка по этому грандиозному сооружению позволила мне ощутить масштаб и величие этого исторического памятника.&lt;/p&gt;
+&lt;p&gt;I also visited the Great Wall of China, which is a symbol of the power and greatness of Chinese civilization. A walk through this grandiose structure allowed me to feel the scale and grandeur of this historical monument.&lt;/p&gt;
 &lt;img src=&#34;3.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;В свободное время я изучал местные рынки и магазины, где приобрёл сувениры и подарки для своих близких.
-В заключение своего визита в Пекин я посетил площадь Тяньаньмэнь, где находится мавзолей Мао Цзэдуна и другие важные исторические объекты. Здесь я ощутил дух китайской нации и понял, насколько важно сохранять и уважать свою историю.&lt;/p&gt;
+&lt;p&gt;In my spare time, I explored local markets and shops, where I bought souvenirs and gifts for my loved ones.
+At the end of my visit to Beijing, I visited Tiananmen Square, where the mausoleum of Mao Zedong and other important historical sites are located. Here I felt the spirit of the Chinese nation and realized how important it is to preserve and respect our history.&lt;/p&gt;
 &lt;img src=&#34;4.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;Моё путешествие в Пекин оставило неизгладимые впечатления и позволило мне глубже погрузиться в культуру и историю Китая.&lt;/p&gt;
+&lt;p&gt;My trip to Beijing left an indelible impression and allowed me to delve deeper into the culture and history of China.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Языки научного программирования</title>
-      <link>https://example.com/post/post8_sci-prog-langs/</link>
+      <title>Science programming languages</title>
+      <link>http://localhost:1313/post/post8_sci-prog-langs/</link>
       <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post8_sci-prog-langs/</guid>
-      <description>&lt;h2 id=&#34;введение&#34;&gt;Введение&lt;/h2&gt;
-&lt;p&gt;В статье мы рассмотрим следующие темы:&lt;/p&gt;
+      <guid>http://localhost:1313/post/post8_sci-prog-langs/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;In the article we will look at the following topics:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Язык разметки LaTeX&lt;/li&gt;
-&lt;li&gt;Язык программирования Julia&lt;/li&gt;
-&lt;li&gt;Язык программирования Octave&lt;/li&gt;
+&lt;li&gt;LaTeX markup language&lt;/li&gt;
+&lt;li&gt;Julia programming language&lt;/li&gt;
+&lt;li&gt;Octave programming language&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;язык-разметки-latex&#34;&gt;Язык разметки LaTeX&lt;/h2&gt;
-&lt;p&gt;LaTeX (произносится /ˈlɑːtɛx/ или /ˈleɪtɛx/[1]) — наиболее популярный набор макрорасширений (или макропакет) системы компьютерной вёрстки TeX, который облегчает набор сложных документов.&lt;/p&gt;
-&lt;p&gt;Этот инструмент используется повсеместно для создания научных документов, написания книг, а также многих других форм публикаций. Он позволяет не только создавать красиво оформленные документы, но также дает пользователям возможность очень быстро реализовывать такие сложные элементы печатного набора, как математические выражения, таблицы, ссылки и библиографии, получая согласованную разметку по всем разделам.&lt;/p&gt;
-&lt;p&gt;Благодаря доступности большого числа открытых библиотек (об этом чуть позже) возможности LaTEX становятся практически безграничны. Эти библиотеки расширяют возможности пользователей еще больше, позволяя добавлять сноски, рисовать схемы и пр.&lt;/p&gt;
-&lt;p&gt;Одна из наиболее веских причин, по которой многие используют LaTeX, заключается в отделении содержания документа от его стиля. Это означает, что после написания содержимого, можно с легкостью изменять его внешний вид. Аналогичным образом, можно создать один стиль документа и использовать его для стандартизации внешнего вида других.&lt;/p&gt;
-&lt;p&gt;Это позволяет научным журналам создавать шаблоны для предлагаемых на рассмотрение материалов. Такие шаблоны имеют заданную разметку, в результате чего добавить остается лишь содержание. На деле существуют сотни подобных шаблонов, начиная с различных резюме и заканчивая презентациями слайдов.&lt;/p&gt;
-&lt;h2 id=&#34;язык-программирования-julia&#34;&gt;Язык программирования Julia.&lt;/h2&gt;
-&lt;p&gt;Язык Julia - это кросс-платформенный компилируемый свободно распространяемый язык программирования (лицензия MIT) с динамической типизацией, который имеет ряд достоинств и недостатков.
-B Julia pеализована возможность JIT - компиляции на основе LLVM. Компиляция Just-in-Time (JIT) позволяет обеспечить одновременно выразительность современных интерпретируемых языков и производительность таких языков, как С и Fortran. Компилятор JIT выполняет компиляцию во время первого запуска программы, извлекая из текста информацию, не указанную явно программистом, и используя эту информацию для оптимизации создаваемого машинного кода.&lt;/p&gt;
-&lt;p&gt;К достоинствам языка Julia можно отнести следующее:&lt;/p&gt;
+&lt;h2 id=&#34;latex-markup-language&#34;&gt;LaTeX markup language&lt;/h2&gt;
+&lt;p&gt;LaTeX (pronounced /liquidlɑːtɛx/ or /uraleɪtɛx/[1]) is the most popular set of macro extensions (or macro-packets) of the TeX computer layout system that facilitates the set of complex documents.&lt;/p&gt;
+&lt;p&gt;This tool is widely used for creating scientific documents, writing books, and many other forms of publications. Not only does it allow you to create beautifully designed documents, but it also allows users to implement very quickly such complex elements of a printed set as mathematical expressions, tables, links and bibliographies, getting a consistent layout across all sections.&lt;/p&gt;
+&lt;p&gt;With the availability of a large number of open libraries (a little bit later), LaTEX’s capabilities are almost limitless. These libraries empower users even more by allowing you to add footnotes, draw diagrams, etc.&lt;/p&gt;
+&lt;p&gt;One of the most compelling reasons many people use LaTeX is to separate the content of a document from its style. This means that after writing the content, you can easily change its appearance. Similarly, one document style can be created and used to standardize the appearance of others.&lt;/p&gt;
+&lt;p&gt;This allows scientific journals to create templates for the proposed materials. Such templates have a given markup, leaving only the content to be added. In fact, there are hundreds of such templates, from various resumes to slide presentations.&lt;/p&gt;
+&lt;h2 id=&#34;julia-programming-language&#34;&gt;Julia programming language&lt;/h2&gt;
+&lt;p&gt;The Julia language is a cross-platform compiled, freely distributed programming language (MIT license) with dynamic typing, which has a number of advantages and disadvantages.
+The B Julia is a JIT-based compilation. The Just-in-Time (JIT) compilation allows both expressiveness of modern interpreted languages and performance of languages such as C and Fortran. The JIT compiler performs the compilation during the first run of the program, extracting from the text information not explicitly specified by the programmer, and using this information to optimize the generated machine code.&lt;/p&gt;
+&lt;p&gt;The advantages of the Julia language include the following:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Простота интуитивно понятный язык, синтаксис которого напоминает синтаксис Python и MATLAB;&lt;/li&gt;
-&lt;li&gt;быстродействие вычислений программ, написанных на Julia, сопоставимо с быстродействием программ, написанных на С или Fortran;&lt;/li&gt;
-&lt;li&gt;эффективная векторизация и распараллеливание вычислений, большое число типов данных, включая рациональный и комплексные числа;&lt;/li&gt;
-&lt;li&gt;проведение расчетов при отсутствии некоторых данных (есть тип дан ных missing);&lt;/li&gt;
-&lt;li&gt;задание точности вычислений (тип данных BigFloat, функция setprecision);&lt;/li&gt;
-&lt;li&gt;реализация символьных вычислений с помощью макро команд;&lt;/li&gt;
-&lt;li&gt;использование библиотек, написанных на С и Fortran, и обмен библиотеками с Python и R;&lt;/li&gt;
-&lt;li&gt;интеграция с СУБД (PostgreSQL, MySQL, JSON).;&lt;/li&gt;
-&lt;li&gt;поддержка символов Unicode;&lt;/li&gt;
-&lt;li&gt;использование парадигмы множественной диспетчеризации - вызов функции слабо зависит от типа параметров функции (параметрический полиморфизм);&lt;/li&gt;
-&lt;li&gt;наличие хорошей встроенной математической библиотеки с функциями линейной алгебры.&lt;/li&gt;
+&lt;li&gt;Simplicity is an intuitive language whose syntax resembles that of Python and MATLAB;&lt;/li&gt;
+&lt;li&gt;the performance of programs written in Julia is comparable to that of programs written in C or Fortran;&lt;/li&gt;
+&lt;li&gt;effective vectoring and parallelization of calculations, a large number of data types, including rational and complex numbers;&lt;/li&gt;
+&lt;li&gt;calculation in the absence of some data (there is a type given missing);&lt;/li&gt;
+&lt;li&gt;calculation precision setting (BigFloat data type, setprecision function);&lt;/li&gt;
+&lt;li&gt;the implementation of symbolic calculations using macro commands;&lt;/li&gt;
+&lt;li&gt;using libraries written in C and Fortran, and sharing libraries with Python and R;&lt;/li&gt;
+&lt;li&gt;integration with DBMS (PostgreSQL, MySQL, JSON). ;&lt;/li&gt;
+&lt;li&gt;support for Unicode characters;&lt;/li&gt;
+&lt;li&gt;the use of the multiple dispatch paradigm - the call of the function depends little on the type of parameters of the function (parametric polymorphism);&lt;/li&gt;
+&lt;li&gt;a good built-in mathematical library with linear algebra functions.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Julia - это полноценный язык программирования, в котором есть целочисленная арифметика, операции с плавающей точкой, циклы, работа с С-подобными структурами и даже аналог оператора goto. Вместе с тем в языке существует очень удобная возможность векторизации расчетов, которая характерна для языков высокого уровня.&lt;/p&gt;
+&lt;p&gt;Julia is a full programming language that has integer arithmetic, floating point operations, cycles, C-like structures, and even a goto operator analogue. However, in the language there is a very convenient possibility of vectoring calculations, which is characteristic of high-level languages.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Если говорить о недостатках языка Julia, то следует отметить , что время компиляции больших программ может быть довольно заметным (минуты);&lt;/li&gt;
-&lt;li&gt;язык относительно новый , поэтому число библиотек на этом языке относительно невелико ( по сравнению с Python );&lt;/li&gt;
-&lt;li&gt;невозможно создать отдельно испролняемую программу - программы на языке Julia работают только в среде Julia.&lt;/li&gt;
+&lt;li&gt;If we talk about the shortcomings of the Julia language, it should be noted that the compilation time of large programs can be quite noticeable (minutes);
+is a relatively new language, so the number of libraries in this language is relatively small ( compared to Python );&lt;/li&gt;
+&lt;li&gt;cannot create separately tested program - Julia programs work only in Julia environment.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;язык-программирования-octave&#34;&gt;Язык программирования Octave&lt;/h2&gt;
-&lt;p&gt;MGNU Octave — свободная система для математических вычислений[1], использующая совместимый с MATLAB язык высокого уровня.&lt;/p&gt;
-&lt;p&gt;Octave представляет интерактивный командный интерфейс для решения линейных и нелинейных математических задач, а также проведения других численных экспериментов. Кроме того, Octave можно использовать для пакетной обработки. Язык Octave оперирует арифметикой вещественных и комплексных скаляров, векторов и матриц, имеет расширения для решения линейных алгебраических задач, нахождения корней систем нелинейных алгебраических уравнений, работы с полиномами, решения различных дифференциальных уравнений, интегрирования систем дифференциальных и дифференциально-алгебраических уравнений первого порядка, интегрирования функций на конечных и бесконечных интервалах. Этот список можно легко расширить, используя язык Octave (или используя динамически загружаемые модули, созданные на языках C, C++, Фортран и др.).&lt;/p&gt;
-&lt;p&gt;Исследователи из Университета Мэриленда в США провели сравнительный анализ математических вычислений, используя MATLAB, Octave, SciLab и FreeMat в простом сценарии и в сложном. В первом случае решали систему линейных уравнений а в втором — конечно-разностную дискретизацию уравнения Пуассона в двухмерном пространстве. Основной вывод — GNU Octave справляется с задачами лучше остальных открытых математических пакетов, демонстрируя результат (страницы 23 и 25) сопоставимый с матлабовским.&lt;/p&gt;
-&lt;p&gt;Научные расчеты, выполненные с использованием открытого ПО имеют дополнительный «уровень защиты», ведь при желании любой может повторить прогнать те же самые расчеты и проверить валидность результатов. Те же самые вычисления, выполненные на дорогущем ПО, частично отсекают возможность проверки результатов. Проблема на самом деле гораздо шире (английский текст) и дело не только в открытых или проприетарных математических программах. Не секрет, что научные журналы как правило не требуют от авторов предоставить данные и методику, достаточные для гарантированного повтора результатов эксперимента, проверки модели. Особенно часто этим грешат экономисты и финансисты, попросту засекречивая свои данные. Проверка расчетов и выводов среди выборки из массива статей с «засекреченными» данными дала неожиданные результаты (английский текст). Наука, как и софт, должна быть открытой, вот почему открытые математические пакеты имеют ценность для всего общества.&lt;/p&gt;
-&lt;h2 id=&#34;выводы&#34;&gt;Выводы&lt;/h2&gt;
-&lt;p&gt;В научном программировании используется много языков программирования и математических систем, но перечисленные в данной статье, на мой взгляд, наиболее удобные и эффективные.&lt;/p&gt;
+&lt;h2 id=&#34;octave-programming-language&#34;&gt;Octave programming language&lt;/h2&gt;
+&lt;p&gt;MGNU Octave is a free system for mathematical computing[1] that uses a high-level MATLAB compatible language.&lt;/p&gt;
+&lt;p&gt;Octave introduces an interactive command interface to solve linear and nonlinear mathematical problems, as well as other numerical experiments. In addition, Octave can be used for batch processing. Octave uses arithmetic of real and complex scalars, vectors and matrices, has extensions for solving linear algebraic problems, finding the roots of systems of nonlinear algebraic equations, working with polynomials, solving various differential equations, integration of systems of differential and differential algebraic equations of the first order, integration of functions on finite and infinite intervals. This list can be easily expanded using the Octave language (or using dynamically downloadable modules created in C, C++, Fortran, etc.).&lt;/p&gt;
+&lt;p&gt;Researchers at the University of Maryland in the United States performed comparative analysis of mathematical computing using MATLAB, Octave, SciLab and FreeMat in a simple and complex scenario. In the first case the system of linear equations was solved and in the second - the finite-differential discretization of the Poisson equation in two-dimensional space. The main conclusion is that GNU Octave performs better than other open mathematical packages, demonstrating a comparable result (pages 23 and 25) than Matlab.&lt;/p&gt;
+&lt;p&gt;Scientific calculations made using open software have an additional «level of protection», because anyone can repeat the same calculations and check the validity of the results. The same calculations made on expensive software partially cut off the possibility of checking the results. The problem is actually much wider (English text) and it’s not just open or proprietary mathematics. It is no secret that scientific journals usually do not require authors to provide data and methods sufficient to guarantee the repetition of experimental results, model verification. Economists and financiers in particular often do this by simply keeping their data secret. Verification of calculations and conclusions among the sample of the array of articles with «classified» data gave unexpected results (English text). Science, like software, has to be open, which is why open math packs have value to society.&lt;/p&gt;
+&lt;h2 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;In scientific programming many languages and mathematical systems are used, but listed in this article, in my opinion, the most convenient and effective.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Как прошла моя неделя 3</title>
-      <link>https://example.com/post/post5_last-week/</link>
+      <title>How was my week? x3</title>
+      <link>http://localhost:1313/post/post5_last-week/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post5_last-week/</guid>
-      <description>&lt;p&gt;После путешествия по Гуанчжоу я отправился в Шанхай, где провёл последнюю неделю. За это время я успел посетить множество известных мест города.&lt;/p&gt;
-&lt;p&gt;Первым делом я отправился в район Пудун, который считается финансовым центром Шанхая. Здесь я увидел знаменитый Шанхайский всемирный финансовый центр — небоскрёб высотой 492 метра, который является вторым по высоте зданием в Китае.&lt;/p&gt;
+      <guid>http://localhost:1313/post/post5_last-week/</guid>
+      <description>&lt;p&gt;After traveling in Guangzhou, I went to Shanghai, where I spent the last week. During this time, I managed to visit many famous places in the city.&lt;/p&gt;
+&lt;p&gt;The first thing I did was go to Pudong district, which is considered the financial center of Shanghai. Here I saw the famous Shanghai World Financial Center, a 492—meter-high skyscraper that is the second tallest building in China.&lt;/p&gt;
 &lt;img src=&#34;1.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;Также я побывал на набережной Вайтань, которая известна своими красивыми видами на реку Хуанпу и небоскрёбы. Затем я отправился в район Луцзяцзуй, который известен своими торговыми центрами и офисами крупных компаний. Здесь я посетил Шанхайский музей науки и техники, который является одним из крупнейших музеев науки и техники в мире. В музее представлены экспонаты, рассказывающие об истории развития науки и техники, а также о современных достижениях в этой области.&lt;/p&gt;
+&lt;p&gt;I also visited the Bund, which is known for its beautiful views of the Huangpu River and skyscrapers. Then I went to Lujiazui district, which is famous for its shopping malls and offices of large companies. Here I visited the Shanghai Museum of Science and Technology, which is one of the largest science and technology museums in the world. The museum presents exhibits telling about the history of the development of science and technology, as well as about modern achievements in this field.&lt;/p&gt;
 &lt;img src=&#34;2.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;После музея я отправился в парк Юйюань, который является одним из самых известных парков Шанхая. В парке я прогулялся по живописным аллеям, полюбовался красивыми видами на озеро и окружающие горы, а также посетил сад камней, где можно было насладиться спокойствием и тишиной.
-В последний день своего пребывания в Шанхае я отправился в район Наньши, который известен своими историческими достопримечательностями. Здесь я посетил Храм Нефритового Будды, который является одним из самых известных буддийских храмов в Шанхае. В храме я увидел статую Нефритового Будды, которая считается одной из самых почитаемых статуй в Китае.&lt;/p&gt;
+&lt;p&gt;After the museum, I went to Yuyuan Park, which is one of the most famous parks in Shanghai. In the park, I walked along the picturesque alleys, admired the beautiful views of the lake and the surrounding mountains, and also visited the rock garden, where I could enjoy peace and quiet.
+On the last day of my stay in Shanghai, I went to the Nanshi district, which is famous for its historical sites. Here I visited the Jade Buddha Temple, which is one of the most famous Buddhist temples in Shanghai. In the temple, I saw a statue of the Jade Buddha, which is considered one of the most revered statues in China.&lt;/p&gt;
 &lt;img src=&#34;3.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;В целом, за последнюю неделю в Шанхае я смог познакомиться с историей, культурой и современной жизнью города. Я увидел множество интересных мест, которые оставили незабываемые впечатления.&lt;/p&gt;
+&lt;p&gt;In general, during the last week in Shanghai, I was able to get acquainted with the history, culture and modern life of the city. I saw a lot of interesting places that left unforgettable impressions.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Оформление отчёта</title>
-      <link>https://example.com/post/post6_report-decor/</link>
+      <title>Report design</title>
+      <link>http://localhost:1313/post/post6_report-decor/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post6_report-decor/</guid>
-      <description>&lt;h2 id=&#34;правила-оформления-в-соответствии-с-гост-15-2001-и-гост-71-2003&#34;&gt;Правила оформления в соответствии с ГОСТ 1.5-2001 и ГОСТ 7.1-2003&lt;/h2&gt;
-&lt;p&gt;Текст отчета по практике должен быть набран на компьютере шрифтом Times New Roman размером 14 пт. (при оформлении текста используется текстовый редактор Microsoft Word). Шрифт, используемый в иллюстративном материале (таблицы и рисунки), рекомендуется уменьшить до 12 пт. Межстрочный интервал в основном тексте - полуторный. В иллюстративном материале межстрочный интервал рекомендуется сделать одинарным. Поля страницы должны быть:&lt;/p&gt;
+      <guid>http://localhost:1313/post/post6_report-decor/</guid>
+      <description>&lt;h2 id=&#34;rules-of-decorating-in-accordance-with-гост-15-2001-and-гост-71-2003&#34;&gt;Rules of decorating in accordance with ГОСТ 1.5-2001 and ГОСТ 7.1-2003&lt;/h2&gt;
+&lt;p&gt;The actual text of the report should be typed on the computer in Times New Roman font size 14 pt. (Microsoft Word text editor is used for text design). It is recommended that the font used in the illustrative material (tables and figures) be reduced to 12 pt. The line spacing in the main text is one-and-a-half. In the illustrative material, it is recommended to make the line spacing single. Page margins should be:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;левое поле - 30 мм;&lt;/p&gt;
+&lt;p&gt;left field - 30 mm;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;правое поле - 10 мм;&lt;/p&gt;
+&lt;p&gt;right field - 10 mm;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;верхнее и нижнее поле - 20 мм.&lt;/p&gt;
+&lt;p&gt;top and bottom margin - 20 mm.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Каждый абзац должен начинаться с красной строки. Отступ абзаца - 12,5 мм. от левой границы текста.&lt;/p&gt;
-&lt;p&gt;Каждый раздел отчета должен начинаться с новой страницы. Наименование структурных элементов отчета «СОДЕРЖАНИЕ», «ВВЕДЕНИЕ», «ЗАКЛЮЧЕНИЕ», «СПИСОК ЛИТЕРАТУРЫ», «ПРИЛОЖЕНИЕ», а также заголовки разделов должны быть напечатаны прописными буквами и располагаться посередине строки. Разделы нумеруются арабскими цифрами (1, 2, 3). Точка в конце заголовков не ставится.&lt;/p&gt;
-&lt;p&gt;Допускается выделение заголовков разделов жирным шрифтом. Не допускается использование подчеркивания в заголовках, использование двух и более типов выделения в заголовках (например, курсив и жирный шрифт, курсив и другой цвет, отличный от основного текста), перенос слов в заголовках глав, а также использование в тексте отчета нестандартных символов, в заголовках применение сокращений. В тексте отчета сокращения терминов допустимы только после введения содержательного определения данного термина. Все страницы отчета (кроме приложений) должны быть пронумерованы, начиная с «Введения», которое нумеруется цифрой 3. Номера страниц располагаются в центре нижней части листа без точки.&lt;/p&gt;
-&lt;p&gt;Иллюстративный материал (таблицы, рисунки, формулы) включается в отчет с целью наглядности аргументации и обоснования выводов, полученных студентом. Таким образом, в основную часть отчета помещается только тот материал, который способствует лучшему обоснованию выводов, полученных студентом. Таблицы, отчетные формы и другой фактический материал, который представляет собой исходные данные, на основании которых производилось исследование, в основной текст работы не включаются, но могут быть вынесены в приложение. Таблицы и рисунки, построенные на основе исходных фактических данных, рекомендуется включать непосредственно в основной текст отчета. Весь иллюстративный материал должен, по возможности, помещаться после первого упоминания о нем в тексте.&lt;/p&gt;
-&lt;p&gt;Иллюстрации нумеруются в пределах разделов. Номер иллюстрации состоит из номера раздела и порядкового номера иллюстрации, разделенных точкой. В конце точка не ставится. Если таблица заимствована из книги или статьи другого автора, на нее в конце заголовка должна быть оформлена ссылка с учетом требований настоящих методических рекомендаций. В графах таблицы не допускается оставлять свободные ячейки. Если соответствующие данные отсутствуют, в графе проставляется прочерк. К цифровым табличным данным должны быть указаны единицы измерения. Если данные таблицы имеют разные единицы измерения, то они указываются в соответствующих заголовках граф или строк таблицы. Если все табличные данные имеют одну и ту же единицу измерения, то данную единицу, начиная с предлога «в», приводят над таблицей после названия через запятую (например, в тыс. руб., в га, в кв. м., в процентах и т.п.).&lt;/p&gt;
-&lt;p&gt;При необходимости таблицу можно переносить на другую страницу. В этом случае применяется следующий вариант оформления. Заголовки столбцов (или строк) таблицы пронумеровываются, и на следующей странице не повторяется текст заголовков, а проставляется только соответствующий номер столбца (строки). Над продолжением таблицы сверху справа печатаются слова «Продолжение таблицы 1.1». Название таблицы на новой странице не повторяется. Не допускается начинать таблицу внизу страницы, если после названия таблицы остается только заголовочная часть, либо заголовочная часть плюс одна-две строки содержания, а основная часть таблицы при этом оказывается на следующем листе. Не допускается перенос таблицы на следующую страницу, если на следующую страницу переносятся одна-две строки содержания таблицы. В этом случае следует либо несколько уменьшить размер шрифта, используемый в таблице, чтобы таблица поместилась целиком на предыдущем листе; либо немного увеличить интервалы между строками таблицы, чтобы таблица располагалась на страницах более равномерно. К рисункам относятся рисунки, схемы, диаграммы, графики и т.д. Если таблица или рисунок по объему занимают более одной страницы, то их необходимо вынести в приложение к отчету. Размещение рисунков в отчете такое же, как и для другого иллюстративного материала, то есть либо сразу же после ссылки на него, либо на ближайшей к этой ссылке странице. Рисунки следует размещать в тексте так, чтобы их можно было рассматривать без поворота работы. Все рисунки должны быть пронумерованы в пределах разделов арабскими цифрами: Рисунок 2.1. Непосредственно после обозначения нумерации рисунка следует содержательный заголовок. Номер рисунка и заголовок размещаются внизу рисунка, по центру относительно рисунка.&lt;/p&gt;
-&lt;p&gt;Уравнения и формулы следует выделять из текста в отдельную строку. В формулах в качестве символов следует применять обозначения, установленные соответствующими государственными стандартами, и отраженные в формате формул.&lt;/p&gt;
-&lt;p&gt;Использованные в процессе написания отчета литературные источники указываются в конце работы перед приложением.&lt;/p&gt;
-&lt;p&gt;Пример оформления библиографического описания:&lt;/p&gt;
-&lt;p&gt;Нормативные правовые акты Конституция Российской Федерации: офиц. текст. - М.: Маркетинг, 2017. - 39 с. Семейный кодекс Российской Федерации: [федер. закон: принят Гос. Думой 8 дек. 1995 г.: по состоянию на 3 янв. 2001 г.]. - СПб.: Стаун-кантри, 2001. - 94 с.&lt;/p&gt;
-&lt;p&gt;Однотомная книга одного автора: Глазунов В.А. Пространственные механизмы параллельной структуры. М.: Наука, 1991. 94 с.&lt;/p&gt;
-&lt;p&gt;Однотомная книга двух и более авторов: Абалакин В.К., Аксенов Е.П., Гребеников Е.А., Демин В.Г., Рябов Ю.А. Справочное руководство по небесной механике и астродинамике / под ред. Г.Н. Дубошина. М.: Наука, 1976. 864 с. Маршак И.С., Дойников А.С., Жильцов В.П., Кирсанов В.П., Ровинский Р.Е., Щукин Л.Н., Фейгенбаум М.Г. Импульсные источники света / под общ. ред. И.С. Маршака. 2-е изд., перераб. и доп. М.: Энергия, 1978. 472 с. Переводная книга: Себехей В. Теория орбит: ограниченная задача трех тел: пер. с англ. / под ред. Г.Н. Дубошина. М.: Наука, 1982. 656 с. [Victor G. Szebehely. Theory of Orbits: the Restricted Problem of Three Bodies. New York : Academic Press, 1967.]. Дейт К.Дж. Введение в системы баз данных: пер. с англ. М.: Вильямс, 2006. 1328 с. [Date C.J. An Introduction to Database Systems. 8th ed. AddisonWesley, 2003. 1024 p.]&lt;/p&gt;
-&lt;p&gt;Отдельный том многотомного издания: Сварка и свариваемые материалы: справочник. В 3 т. Т. 1. Свариваемость материалов / ред. Э.Л. Макаров. М.: Металлургия, 1991. 258 с. Диссертация: Пнев А.Б. Оптико-электронные измерительные системы на основе квазираспределенных волоконно-оптических брэгговских датчиков: дис. … канд. техн. наук. М., 2008. 176 с.&lt;/p&gt;
-&lt;p&gt;Автореферат диссертации: Вишняков И.В. Модели и методы оценки коммерческих банков в условиях неопределенности: автореф. дис. … канд. экон. наук. М., 2002. 15 с. Аналитический обзор: Экономика и политика России и государств ближнего зарубежья: аналит. обзор, апр. 2007 / Рос. акад. наук, Ин-т мировой экономики и междунар. отношений. М.,: ИМЭМО, 2007. 39 с.&lt;/p&gt;
-&lt;p&gt;Депонированная научная работа: Громов Ю.Ю., Деревуз М.М., Земской Н.А., Иванова О.Г., Мосягина Н.Г. Алгоритм численного решения жестких дифференциальных уравнений / Тамбовский государственный технический университет. Тамбов, 1999. 8 с. Деп. в ВИНИТИ 04.03.1999, № 669-В1999. Стандарт: ГОСТ Р 517721-2001. Аппаратура радиоэлектронная бытовая. Входные и выходные параметры и типы соединений.&lt;/p&gt;
-&lt;p&gt;Технические требования. Введ. 2002- 01-01. М.: Изд-во стандартов, 2001. 27 с. Патент: Чугаева В.И. Приемопередающее устройство: пат. 2187888 Российская Федерация. 2002. Бюл. № 23 (2 ч.). 3 с.&lt;/p&gt;
-&lt;p&gt;Статья в периодическом издании: Чайковский М.М., Ядыкин И.Б. Оптимальная настройка ПИДрегуляторов для многосвязных билинейных объектов управления // Автоматика и телемеханика. 2009. № 1. С. 130-146. Звягин Ф.В. Об одном классе орбит в задачах трех и четырех тел // Вестник МГТУ им. Н.Э. Баумана. Сер. Приборостроение. 2010. № 2. С. 105– 113. Станкевич И.В., Яковлев М.Е., Си Ту Хтет. Разработка алгоритма контактного взаимодействия на основе альтернирующего метода // Вестник МГТУ им. Н.Э. Баумана. Сер. Естественные науки. 2011. Спец. вып. «Прикладная математика». С. 134–141.&lt;/p&gt;
-&lt;p&gt;Статья в сборнике: Двинянинова Г.С. Комплимент: Коммуникативный статус или стратегия в дискурсе // Социальная власть языка: сб. науч. тр. Воронеж, 2001. С. 42-49. Орлик А.Г., Коберник Н.В. Получение износостойких антиабразивных покрытий // Труды МГТУ им. Н. Э. Баумана. 2010. № 602: Математическое моделирование сложных технических систем. С. 34–38. Статья в продолжающемся издании: Белова Г.Д. Некоторые вопросы уголовной ответственности за нарушение налогового законодательства // Актуал. проблемы прокурор. надзора. 2001. Вып. 5: Прокурорский надзор за исполнением уголовного и уголовно- процессуального законодательства. Организация деятельности прокуратуры. С. 46–49. Живописцев В.П., Пятосин Л.П. Комплексные соединения тория с диантипирилметаном // Учен. зап. / Перм. ун-т. 1970. № 207. С. 184–191. Работа в материалах конференции: Карпенко А.П., Селиверстов Е.Ю. Глобальная оптимизация методом роя частиц на графических процессорах // Всерос. суперкомпьютерная конференция «Научный сервис в сети Интернет: масштабируемость, параллельность, эффективность»: труды. М.: Изд-во МГУ, 2009. С. 188–191. Симонов А. Очистка сточных вод: проектирование технических устройств // 7-я региональная конференция молодых исследователей Волгоградской области (Волгоград, 12–15 мая 2002 г.): тез. докл. Волгоград, 2002. С. 13–15.&lt;/p&gt;
-&lt;p&gt;Глава в книге: Берлинер Э.М., Глазырина И.Б., Глазырин Б.Э. Автоматизация выполнения отдельных операций в Word 2000 // Office 2000: 5 кн. в 1: самоучитель. 2-е изд., перераб. М., 2002. Гл. 14. С. 281–298. Статья в многотомном издании: Кулаков В.А. Викторианский стиль // БРЭ. М., 2006. Т. 5. С. 308–309.&lt;/p&gt;
-&lt;p&gt;В отчете не рекомендуется пересказывать содержание учебников, учебных пособий, нормативной и специальной литературы. Эта информация должна быть переработана и представлена в содержании работы. Недопустимо прямое заимствование из источников без ссылки на автора или нормативный документ. При использовании цифровых данных, положений из официальных документов, цитат и других опубликованных материалов студент должен указывать источник и делать ссылку в квадратных скобках. Пример: [12, с. 34], что означает: 12 - номер источника в списке литературы, 34 - номер страницы. В приложение помещаются материалы, дополняющие текст отчета. Например, использованные для расчетов данные; промежуточные таблицы и диаграммы, которые повлияли на построение окончательных таблиц и рисунков; промежуточные расчеты, показывающие динамику развития доказательств студента; описание алгоритмов; таблицы и рисунки нестандартного формата и т.д. Приложения помещаются в работе после списка литературы. Каждое приложение последовательно нумеруется арабскими цифрами. Если приложение больше одной страницы, то оно переносится на другую страницу и вверху обозначается как «Продолжение приложения …». В тексте отчета на все приложения должны быть приведены ссылки. Расположение приложений в конце документа должно соответствовать порядку появления ссылок на них в тексте. Каждое приложение начинается с новой страницы. В верхнем правом углу страницы указывается слово «ПРИЛОЖЕНИЕ» и ставится его порядковый номер (например, «ПРИЛОЖЕНИЕ 1»). Каждое приложение должно иметь заголовок, который указывается на следующей строке после слова «ПРИЛОЖЕНИЕ», и этот заголовок центруется относительно текста. Если документы имеют большой формат, они должны быть сложены по формату А4. При этом одна страница такой нестандартной величины нумеруется как одна страница приложения (без учета ее сложения).&lt;/p&gt;
+&lt;p&gt;Each paragraph should start with a red line. The indentation of the paragraph is 12.5 mm. from the left border of the text.&lt;/p&gt;
+&lt;p&gt;Each section of the report should start with a new page. The name of the structural elements of the report «CONTENTS», «INTRODUCTION», «CONCLUSION», «LIST OF LITERATURE», «ANNEX», as well as the headings of the sections should be printed in capital letters and be located in the middle of the line. Sections are numbered with Arabic numerals (1, 2, 3). No dot at the end of headings.&lt;/p&gt;
+&lt;p&gt;The headings of sections may be highlighted in bold. It is not allowed to use underlining in headings, use of two or more types of highlighting in headers (for example, italics and bold font, italics and other color other than the main text), moving words in chapter headings, as well as the use of non-standard characters in the report text, the use of abbreviations in headers. In the text of the report, abbreviations of terms are allowed only after the introduction of a meaningful definition of the term. All pages of the report (except the applications) should be numbered, starting with «Introduction», which is numbered with the digit 3. Page numbers are located in the center of the bottom of the sheet without a dot.&lt;/p&gt;
+&lt;p&gt;Illustrative material (tables, drawings, formulas) is included in the report in order to visualize the argumentation and substantiation of the conclusions received by the student. Thus, the main part of the report is only the material that contributes to a better substantiation of the conclusions reached by the student. Tables, reporting forms and other factual material, which are the raw data from which the study was based, are not included in the main body of work but may be annexed. It is recommended that tables and figures based on actual baseline data be included directly in the main body of the report. All illustrative material should, if possible, be placed after the first reference to it in the text.&lt;/p&gt;
+&lt;p&gt;Equations and formulas should be separated from the text into a separate row. Formulae should use as symbols the symbols established by the relevant state standards and reflected in the format of formulae.&lt;/p&gt;
+&lt;p&gt;Literary sources used in the report writing process are specified at the end of the work before the application.&lt;/p&gt;
+&lt;p&gt;Example of the design of the bibliographic description:&lt;/p&gt;
+&lt;p&gt;Normative legal acts Constitution of the Russian Federation: offc. text. - M.: Marketing, 2017. - 39 p. Family Code of the Russian Federation: [feder. Law: adopted by the State. Duma 8 dec. 1995: as of 3 Jan. 2001]. - SPb.: Staun Country, 2001. - 94 pp.&lt;/p&gt;
+&lt;p&gt;One-volume book by one author: Glasunov V.A. Spatial mechanisms of parallel structure. M.: Science, 1991. 94 p.&lt;/p&gt;
+&lt;p&gt;The one-volume book of two authors: Abalakin V.K., Aksenov E.P., Grebenikov E.A., Demin V.G., Ryabov Y.A. Reference manual of celestial mechanics and Astrodynamics / under Rev. G.N. Duboshina. M.: Science, 1976. 864 p. Marshak I.S., Doynikov A.S., Giltsov V.P., Kirsanov V.P., Rovinsky R.E., Shchukin L.N., Feigenbaum M.G. Impulsive sources of light / under the district. J.S. Marshak. 2nd d. , recycled. and dop. M.: Energy, 1978. 472 p. Translation Book: Sebehey B. Theory of Orbits: Limited Problem of Three Tel: Per. c. c. under G.N. Duboshina. M.: Science, 1982. 656 p. [Victor G. Szebehely. Theory of Orbits: the Restricted Problem of Three Bodies. New York : Academic Press, 1967. ]. Data K.J. Introduction to Database Systems: M. 1. Williams, 2006. 1328 p. [Date C.J. An Introduction to Database Systems. 8th ed. AddisonWesley, 2003. 1024 p.]&lt;/p&gt;
+&lt;p&gt;Separate volume of multi-volume edition: Welding and welded materials: reference book. In 3 t. T. 1. Weldability of materials / ed. E.L. Makarov. M.: Metallurgy, 1991. 258 p. Dissertation: Pnev A.B. Optical-electronic measuring systems based on quasi-limited fiber-optic Bragg sensors: Dis. &amp;hellip; kand. techn. of science. M., 2008. 176 p.&lt;/p&gt;
+&lt;p&gt;Autoabstract thesis: Vishnyakov I.V. Models and methods of assessment of commercial banks in the conditions of uncertainty: autoef. dis. &amp;hellip; Kand. econ. Sciences. M., 2002. 15 p. Analytical Review: The Economy and Politics of Russia and CIS States: Analyses. Review, Apr. 2007 / Ros. Acad. science, In-t world economy and international. relations. M.,: IMEMO, 2007. 39 p.&lt;/p&gt;
+&lt;p&gt;Deposited scientific work: Gromov Y.Y., Derevuz M.M., Zemskaya N.A., Ivanova O.G., Mosyagina N.G. Algorithm of numerical solution of rigid differential equations / Tambov State Technical University. Tambov, 1999. 8 p. Dep. in VINITI 04.03.1999,  669-B1999. Standard: GOST R 517721-2001. Electronic household appliances. Input and output parameters and connection types.&lt;/p&gt;
+&lt;p&gt;Technical requirements. Introduction. 2002 - 01-01. M.: Publishing standards, 2001. 27 pp. Patent: Chugaeva V.I. Transceiver: pat. 2187888 Russian Federation. 2002. Bull.   23 (2 hours). 3 p.&lt;/p&gt;
+&lt;p&gt;Article in the periodical: Tchaikovsky M.M., Yadykin I.B. Optimum adjustment of PIDs for multi-link bilinear objects of control // Automation and telemechanics. 2009.   1. P. 130-146. Zviagin F.V. About one class of orbits in three and four sol/ Bulletin of MSTU named after. N.E. Bauman. Ser. Instrumentation. 2010.   2. P. 105 - 113. Stankevich I.V., Yakovlev M.E., Si Tu Htet. Development of the algorithm of contact interaction on the basis of the alternating method // Bulletin of MSTU. N.E. Bauman. Ser. Natural Sciences. 2011. Specials. of. «Applied Mathematics». P. 134-141.&lt;/p&gt;
+&lt;p&gt;Article in the collection: Dvinyaninova G.S. Compliment: Communicative status or strategy in discourse // Social power of the language: Sat. Science. tr. Voronezh, 2001. S. 42-49. Orlik A.G., Cobernik N.V. Obtaining wear-resistant anti-abrasive coatings // Works of MGTU them. N. E. Bauman. 2010.   602: Mathematical Modeling of Complex Technical Systems. P. 34-38. Article in the ongoing edition: Belova G.D. Some issues of criminal liability for violation of tax legislation // Current. Problems Prosecutor. Supervision. 2001. Page. 5: Procuratorial supervision over the implementation of criminal and criminal procedural legislation. Organization of activities of the Prosecutor’s Office. S. 46-49. Pictorists V.P., Pyatossin L.P. Complex connections of thorium with diantipirylmethane // Scientists. Zat. / Perm. kt. 1970.   207. p. 184-191. Work in the conference materials: Karpenko A.P., Seliverstov E.Y. Global optimization by swarm of particles on graphics processors // All. supercomputer conference «Scientific Service in the Internet: Scalability, Parallelism, Efficiency»: papers. M.: Moscow State University, 2009. C. 188-191. Simonov A. Sewage treatment: design of technical devices /7th Regional Conference of Young Researchers of the Volgograd Region (Volgograd, 12-15 May 2002): Thesis. Dr. Volgograd, 2002. p. 13-15.&lt;/p&gt;
+&lt;p&gt;Chapter in the book: Berliner E.M., Glazyrine I.B., Glazyrin B.E. Automation of individual operations in Word 2000 // Office 2000: 5 kn. in 1: self-learning guide. 2nd edition. revised. M., 2002. Gl. 14. P. 281-298. Article in multi-volume edition: Kulakov V.A. Victorian style // BR. M., 2006. T. 5. P. 308-309.&lt;/p&gt;
+&lt;p&gt;The report does not recommend retelling the content of textbooks, teaching aids, normative and specialized literature. This information should be refined and presented in the content of the work. Direct borrowing from sources without reference to the author or the instrument is not acceptable. When using digital data, official documents, quotations and other published material, a student must indicate the source and make a reference in square brackets. Example: [12, pp. 34], meaning: 12 - source number in the list of literature, 34 - page number. The attachment contains material supplementing the text of the report. For example, the data used for calculations; intermediate tables and charts that influenced the construction of final tables and figures; intermediate calculations showing the dynamics of the student’s evidence; description of algorithms; tables and drawings of non-standard format, etc. Applications are placed in the work after the list of literature. Each annex is sequentially numbered with Arabic numerals. If the application is more than one page, it is moved to another page and at the top is marked as «Continuation of the application &amp;hellip;». All applications should be referenced in the report text. The location of the annexes at the end of the document should follow the order in which the links to them appear in the text. Each application starts with a new page. In the upper right corner of the page, the word «ANNEX» is indicated and its serial number is placed (for example, «ANNEX 1»). Each application should have a header that appears on the next line after «ANNEX», and this header is centered around the text. If the documents have a large format, they should be stacked in A4 format. One page of this non-standard value is numbered as one page of the application (without adding it).&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Язык разметки Markdown</title>
-      <link>https://example.com/post/post4_markdown/</link>
+      <title>Markup language Markdown</title>
+      <link>http://localhost:1313/post/post4_markdown/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post4_markdown/</guid>
-      <description>&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+      <guid>http://localhost:1313/post/post4_markdown/</guid>
+      <description>&lt;p&gt;Hugo Blox Builder is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Wowchemy.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
 &lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Wowchemy поддерживает расширение Markdown для выделения синтаксиса кода. Вы можете настроить стили с помощью параметра &amp;ldquo;syntax_highlighter&amp;rdquo; в вашем файле &amp;ldquo;config/_default/params.yaml&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the &lt;code&gt;syntax_highlighter&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;```python
 import pandas as pd
 data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
 data.head()
 ```
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mindmaps&#34;&gt;Mindmaps&lt;/h3&gt;
-&lt;p&gt;Wowchemy поддерживает расширение Markdown для mindmaps.&lt;/p&gt;
-&lt;p&gt;Просто вставьте блок кода Markdown &lt;code&gt;markmap&lt;/code&gt; и при желании установите высоту mindmap, как показано в примере ниже.&lt;/p&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for mindmaps.&lt;/p&gt;
+&lt;p&gt;Simply insert a Markdown &lt;code&gt;markmap&lt;/code&gt; code block and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
 &lt;p&gt;A simple mindmap defined as a Markdown list:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;
@@ -175,13 +176,13 @@ data.head()
 &lt;/code&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;highlight&#34; height=&#34;200px&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Hugo Modules
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  - wowchemy
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  - blox-plugins-netlify
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  - blox-plugins-netlify-cms
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  - blox-plugins-reveal
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Более продвинутая ментальная карта с форматированием, блоками кода и математикой:&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A more advanced mindmap with formatting, code blocks, and math:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;
 &lt;pre class=&#34;chroma&#34;&gt;
 &lt;code&gt;
@@ -207,7 +208,7 @@ data.head()
 &lt;/code&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- Mindmaps
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  - Links
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    - [Wowchemy Docs](https://docs.hugoblox.com/)
@@ -226,14 +227,14 @@ data.head()
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      ```
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;charts&#34;&gt;Charts&lt;/h3&gt;
-&lt;p&gt;Wowchemy поддерживает популярный формат интерактивных графиков &lt;a href=&#34;https://plot.ly/&#34;&gt;Plotly&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Сохраните свой графический JSON-файл в папке page, например &amp;ldquo;line-chart.json&amp;rdquo;, а затем добавьте короткий код &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; в том месте, где вы хотели бы видеть диаграмму.&lt;/p&gt;
+&lt;p&gt;Wowchemy supports the popular &lt;a href=&#34;https://plot.ly/&#34;&gt;Plotly&lt;/a&gt; format for interactive charts.&lt;/p&gt;
+&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
 
 
-&lt;div id=&#34;chart-943218657&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-384519627&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -251,23 +252,23 @@ data.head()
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-943218657&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-384519627&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
 &lt;/script&gt;
 
-&lt;p&gt;Возможно, вам также пригодится &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
+&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
 &lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Wowchemy поддерживает расширение Markdown для  $\LaTeX$ math. Вы можете включить эту функцию, переключив параметр &lt;code&gt;math&lt;/code&gt; в &lt;code&gt;config/_default/params.yaml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Чтобы отобразить &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, берните математику в LaTeX с помощью &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, соответственно.&lt;/p&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively. (We wrap the LaTeX math in the Wowchemy &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown. The &lt;em&gt;math&lt;/em&gt; shortcode is new in v5.5-dev.)&lt;/p&gt;
 &lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 
 $$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
 
@@ -279,7 +280,7 @@ $$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 
 
 $$
@@ -290,7 +291,7 @@ $$
 
 
 &lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Wowchemy поддерживает расширение Markdown для диаграмм. Вы можете включить эту функцию, переключив параметр &amp;ldquo;диаграмма&amp;rdquo; в вашем файле &amp;ldquo;config/_default/params.toml&amp;rdquo; или добавив &amp;ldquo;диаграмма: true&amp;rdquo; в заголовок вашей страницы.&lt;/p&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
 &lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;```mermaid
 graph TD
@@ -300,7 +301,7 @@ C --&amp;gt;|One| D[Result 1]
 C --&amp;gt;|Two| E[Result 2]
 ```
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;graph TD
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A[Hard] --&amp;gt;|Text| B(Round)
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;B --&amp;gt; C{Decision}
@@ -319,7 +320,7 @@ John-&amp;gt;&amp;gt;Bob: How about you?
 Bob--&amp;gt;&amp;gt;John: Jolly good!
 ```
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sequenceDiagram
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;loop Healthcheck
@@ -341,7 +342,7 @@ Parallel 3   :         des5, after des3, 1d
 Parallel 4   :         des6, after des4, 1d
 ```
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gantt
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;section Section
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Completed :done,    des1, 2014-01-06,2014-01-08
@@ -368,7 +369,7 @@ Class01 : int gorilla
 Class08 &amp;lt;--&amp;gt; C2: Cool label
 ```
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;classDiagram
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Class01 &amp;lt;|-- AveryLongClass : Cool
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Class03 *-- Class04
@@ -394,7 +395,7 @@ Moving --&amp;gt; Crash
 Crash --&amp;gt; [*]
 ```
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;stateDiagram
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[*] --&amp;gt; Still
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Still --&amp;gt; [*]
@@ -403,11 +404,11 @@ Crash --&amp;gt; [*]
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Moving --&amp;gt; Crash
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Crash --&amp;gt; [*]
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;Вы даже можете создавать свои списки дел в Markdown:&lt;/p&gt;
+&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;отображается так&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
 &lt;ul&gt;
@@ -417,27 +418,27 @@ Crash --&amp;gt; [*]
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Сохраните вашу электронную таблицу в виде CSV-файла в папке вашей страницы, а затем отрисуйте ее, добавив короткий код &lt;em&gt;Table&lt;/em&gt; на вашу страницу:&lt;/p&gt;
+&lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;h3 id=&#34;callouts&#34;&gt;Callouts&lt;/h3&gt;
-&lt;p&gt;Academic поддерживает &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/#callouts&#34;&gt;shortcode for callouts&lt;/a&gt;, также называемый as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. Заключая абзац в  &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, это будет отображаться как отступление.&lt;/p&gt;
+&lt;p&gt;Academic supports a &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/#callouts&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
 &lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Markdown полезен для отображения уведомлений, подсказок или определений для ваших читателей.&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
-&lt;p&gt;Добавьте спойлер на страницу, чтобы после нажатия кнопки отображался текст, например ответ на вопрос.&lt;/p&gt;
+&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Click to view the spoiler&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
   &lt;summary class=&#34;cursor-pointer&#34;&gt;Click to view the spoiler&lt;/summary&gt;
   &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
@@ -445,12 +446,12 @@ Crash --&amp;gt; [*]
   &lt;/div&gt;
 &lt;/details&gt;
 &lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic позволяет вам использовать широкий спектр &lt;a href=&#34;https://docs.hugoblox.com/getting-started/page-builder/#icons&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; в дополнение к &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/#emojis&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Вот несколько примеров использования шорткода &amp;ldquo;icon&amp;rdquo; для отображения значков:&lt;/p&gt;
+&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://docs.hugoblox.com/getting-started/page-builder/#icons&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/#emojis&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;terminal&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fas&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} Terminal  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} Python  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;r-project&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;pack&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;fab&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}} R
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;визуализируется так&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;p&gt;
   &lt;span class=&#34;inline-block  pr-1&#34;&gt;
     &lt;svg style=&#34;height: 1em; transform: translateY(0.1em);&#34; viewBox=&#34;0 0 370 391&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;g clip-rule=&#34;evenodd&#34; fill-rule=&#34;evenodd&#34;&gt;&lt;path d=&#34;m207.5 22.4 114.4 66.6c13.5 7.9 21.9 22.4 21.9 38v136.4c0 17.3-9.3 33.3-24.5 41.8l-113.5 63.9a49.06 49.06 0 0 1 -48.5-.2l-104.5-60.1c-16.4-9.5-26.6-27-26.6-45.9v-129.5c0-19.1 9.9-36.8 26.1-46.8l102.8-63.5c16-9.9 36.2-10.1 52.4-.7z&#34; fill=&#34;#ff4088&#34; stroke=&#34;#c9177e&#34; stroke-width=&#34;27&#34; /&gt;&lt;path d=&#34;m105.6 298.2v-207.2h43.4v75.5h71.9v-75.5h43.5v207.2h-43.5v-90.6h-71.9v90.6z&#34; fill=&#34;#fff&#34; /&gt;&lt;/g&gt;&lt;/svg&gt;
@@ -467,60 +468,59 @@ Crash --&amp;gt; [*]
     </item>
     
     <item>
-      <title>Как прошла моя неделя 2</title>
-      <link>https://example.com/post/post3_last-week/</link>
+      <title>How was my week? x2</title>
+      <link>http://localhost:1313/post/post3_last-week/</link>
       <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post3_last-week/</guid>
-      <description>&lt;p&gt;На прошлой неделе я отправился в незабываемое путешествие по Китаю со своей семьёй, посетив удивительный город Гуанчжоу. Здесь я смог насладиться красотой современных музеев и выставок, которые поразили меня своим разнообразием и уникальностью экспонатов.&lt;/p&gt;
+      <guid>http://localhost:1313/post/post3_last-week/</guid>
+      <description>&lt;p&gt;Last week, I went on an unforgettable trip to China with my family, visiting the amazing city of Guangzhou. Here I was able to enjoy the beauty of modern museums and exhibitions, which amazed me with their diversity and uniqueness of exhibits.&lt;/p&gt;
 &lt;img src=&#34;1.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;Во время своего пребывания в Гуанчжоу я посетил музей науки и технологий, где узнал много нового о развитии науки и техники в Китае. Затем я отправился в музей искусства, где увидел произведения китайских художников и скульпторов, созданные в разные периоды истории страны.&lt;/p&gt;
+&lt;p&gt;During my stay in Guangzhou, I visited the Museum of Science and Technology, where I learned a lot about the development of science and technology in China. Then I went to the Museum of Art, where I saw the works of Chinese artists and sculptors created in different periods of the country&amp;rsquo;s history.&lt;/p&gt;
 &lt;img src=&#34;2.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;Помимо посещения музеев, я также решил прогуляться по городу и насладиться его архитектурой и атмосферой. Я побывал на рынке Паньюй, где купил сувениры для своих друзей и родственников, а также попробовал местную кухню в одном из ресторанов города.&lt;/p&gt;
+&lt;p&gt;In addition to visiting museums, I also decided to walk around the city and enjoy its architecture and atmosphere. I visited Panyu Market, where I bought souvenirs for my friends and relatives, and also tasted local cuisine at one of the restaurants in the city.&lt;/p&gt;
 &lt;img src=&#34;3.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
-&lt;p&gt;В общем, моя прошлая неделя в Гуанчжоу была полна ярких впечатлений и открытий. Я благодарен судьбе за возможность побывать в этой удивительной стране и познакомиться с её культурой и историей.&lt;/p&gt;
+&lt;p&gt;In general, my last week in Guangzhou was full of vivid impressions and discoveries. I am grateful for the opportunity to visit this amazing country and get acquainted with its culture and history.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Управление версиями Git</title>
-      <link>https://example.com/post/post2_git/</link>
+      <title>Git version control</title>
+      <link>http://localhost:1313/post/post2_git/</link>
       <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post2_git/</guid>
-      <description>&lt;h2 id=&#34;о-системе-контроля-версий&#34;&gt;О системе контроля версий&lt;/h2&gt;
-&lt;p&gt;Система контроля версий — это система, записывающая изменения в файл или набор файлов в течение времени и позволяющая вернуться позже к определённой версии. Для контроля версий файлов в этой книге в качестве примера будет использоваться исходный код программного обеспечения, хотя на самом деле вы можете использовать контроль версий практически для любых типов файлов.&lt;/p&gt;
-&lt;h2 id=&#34;локальные-системы-контроля-версий&#34;&gt;Локальные системы контроля версий&lt;/h2&gt;
-&lt;p&gt;Многие люди в качестве метода контроля версий применяют копирование файлов в отдельный каталог (возможно даже, каталог с отметкой по времени, если они достаточно сообразительны). Данный подход очень распространён из-за его простоты, однако он
-невероятно сильно подвержен появлению ошибок. Можно легко забыть в каком каталоге вы находитесь и случайно изменить не тот файл или скопировать не те файлы, которые вы хотели.&lt;/p&gt;
-&lt;p&gt;Для того, чтобы решить эту проблему, программисты давным-давно разработали локальные VCS с простой базой данных, которая хранит записи о всех изменениях в файлах, осуществляя тем самым контроль ревизий.&lt;/p&gt;
+      <guid>http://localhost:1313/post/post2_git/</guid>
+      <description>&lt;h2 id=&#34;about-version-control&#34;&gt;About Version Control&lt;/h2&gt;
+&lt;p&gt;What is “version control”, and why should you care? Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book, you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer.&lt;/p&gt;
+&lt;h2 id=&#34;local-version-control-systems&#34;&gt;Local Version Control Systems&lt;/h2&gt;
+&lt;p&gt;Many people’s version-control method of choice is to copy files into another directory (perhaps a time-stamped directory, if they’re clever). This approach is very common because it is so simple, but it is also incredibly error prone. It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to.&lt;/p&gt;
+&lt;p&gt;To deal with this issue, programmers long ago developed local VCSs that had a simple database that kept all the changes to files under revision control.&lt;/p&gt;
 &lt;img src=&#34;1.png&#34; alt=&#34;drawing&#34; width=55%/&gt;
-&lt;h2 id=&#34;централизованные-системы-контроля-версий&#34;&gt;Централизованные системы контроля версий&lt;/h2&gt;
-&lt;p&gt;Следующая серьёзная проблема, с которой сталкиваются люди, — это необходимость взаимодействовать с другими разработчиками. Для того, чтобы разобраться с ней, были разработаны централизованные системы контроля версий (Centralized Version Control System, далее CVCS). Такие системы, как CVS, Subversion и Perforce, используют единственный сервер, содержащий все версии файлов, и некоторое количество клиентов, которые получают файлы из этого централизованного хранилища. Применение CVCS являлось стандартом на протяжении многих лет.&lt;/p&gt;
-&lt;p&gt;Такой подход имеет множество преимуществ, особенно перед локальными VCS. Например, все разработчики проекта в определённой степени знают, чем занимается каждый из них. Администраторы имеют полный контроль над тем, кто и что может делать, и гораздо проще администрировать CVCS, чем оперировать локальными базами данных на каждом клиенте.&lt;/p&gt;
-&lt;p&gt;Несмотря на это, данный подход тоже имеет серьёзные минусы. Самый очевидный минус — это единая точка отказа, представленная централизованным сервером. Если этот сервер выйдет из строя на час, то в течение этого времени никто не сможет использовать контроль версий для сохранения изменений, над которыми работает, а также никто не сможет обмениваться этими изменениями с другими разработчиками. Если жёсткий диск, на котором хранится центральная БД, повреждён, а своевременные бэкапы отсутствуют, вы потеряете всё — всю историю проекта, не считая единичных снимков репозитория, которые сохранились на локальных машинах разработчиков. Локальные VCS страдают от той же самой проблемы: когда вся история проекта хранится в одном месте, вы рискуете потерять всё.&lt;/p&gt;
+&lt;h2 id=&#34;centralized-version-control-systems&#34;&gt;Centralized Version Control Systems&lt;/h2&gt;
+&lt;p&gt;The next major issue that people encounter is that they need to collaborate with developers on other systems. To deal with this problem, Centralized Version Control Systems (CVCSs) were developed. These systems (such as CVS, Subversion, and Perforce) have a single server that contains all the versioned files, and a number of clients that check out files from that central place. For many years, this has been the standard for version control.&lt;/p&gt;
+&lt;p&gt;This setup offers many advantages, especially over local VCSs. For example, everyone knows to a certain degree what everyone else on the project is doing. Administrators have fine-grained control over who can do what, and it’s far easier to administer a CVCS than it is to deal with local databases on every client.&lt;/p&gt;
+&lt;p&gt;However, this setup also has some serious downsides. The most obvious is the single point of failure that the centralized server represents. If that server goes down for an hour, then during that hour nobody can collaborate at all or save versioned changes to anything they’re working on. If the hard disk the central database is on becomes corrupted, and proper backups haven’t been kept, you lose absolutely everything — the entire history of the project except whatever single snapshots people happen to have on their local machines. Local VCSs suffer from this same problem — whenever you have the entire history of the project in a single place, you risk losing everything.&lt;/p&gt;
 &lt;img src=&#34;2.png&#34; alt=&#34;drawing&#34; width=55%/&gt;
-&lt;h2 id=&#34;распределённые-системы-контроля-версий&#34;&gt;Распределённые системы контроля версий&lt;/h2&gt;
-&lt;p&gt;Здесь в игру вступают распределённые системы контроля версий (Distributed Version Control System, далее DVCS). В DVCS (таких как Git, Mercurial, Bazaar или Darcs) клиенты не просто скачивают снимок всех файлов (состояние файлов на определённый момент времени) — они полностью копируют репозиторий. В этом случае, если один из серверов, через который разработчики обменивались данными, умрёт, любой клиентский репозиторий может быть скопирован на другой сервер для продолжения работы. Каждая копия репозитория является полным бэкапом всех данных.&lt;/p&gt;
-&lt;p&gt;Более того, многие DVCS могут одновременно взаимодействовать с несколькими удалёнными репозиториями, благодаря этому вы можете работать с различными группами людей, применяя различные подходы единовременно в рамках одного проекта. Это позволяет применять сразу несколько подходов в разработке, например, иерархические модели, что совершенно невозможно в централизованных системах.&lt;/p&gt;
+&lt;h2 id=&#34;distributed-version-control-systems&#34;&gt;Distributed Version Control Systems&lt;/h2&gt;
+&lt;p&gt;This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (such as Git, Mercurial or Darcs), clients don’t just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. Thus, if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data.&lt;/p&gt;
+&lt;p&gt;Furthermore, many of these systems deal pretty well with having several remote repositories they can work with, so you can collaborate with different groups of people in different ways simultaneously within the same project. This allows you to set up several types of workflows that aren’t possible in centralized systems, such as hierarchical models.&lt;/p&gt;
 &lt;img src=&#34;3.png&#34; alt=&#34;drawing&#34; width=55%/&gt;
 </description>
     </item>
     
     <item>
-      <title>Как прошла моя неделя 1</title>
-      <link>https://example.com/post/post1_last-week/</link>
+      <title>How was my week? x1</title>
+      <link>http://localhost:1313/post/post1_last-week/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/post1_last-week/</guid>
-      <description>&lt;p&gt;На прошлой неделе я отправился в удивительное путешествие по пустыне Гоби вместе со своими друзьями. Мы решили провести время активно и весело, поэтому арендовали квадроциклы и отправились кататься по песчаным барханам. Это было незабываемое приключение, которое оставило массу ярких впечатлений.&lt;/p&gt;
-&lt;p&gt;По вечерам после активного дня мы собирались у костра, чтобы поделиться эмоциями и обсудить прошедший день. Мы готовили разнообразные блюда на огне, пели песни под гитару и рассказывали друг другу истории. Атмосфера была тёплой и уютной, а общение с друзьями — непринуждённым и искренним.&lt;/p&gt;
-&lt;p&gt;Неделя, проведённая в пустыне Гоби, стала для меня настоящим открытием. Я узнал много нового о природе и научился ценить красоту окружающего мира. Это путешествие помогло мне отдохнуть от городской суеты и зарядиться позитивом на долгое время вперёд.&lt;/p&gt;
+      <guid>http://localhost:1313/post/post1_last-week/</guid>
+      <description>&lt;p&gt;Last week I went on an amazing journey through the Gobi Desert with my friends. We decided to spend time actively and have fun, so we rented ATVs and went for a ride on the sand dunes. It was an unforgettable adventure that left a lot of vivid impressions.&lt;/p&gt;
+&lt;p&gt;In the evenings, after an active day, we gathered around the campfire to share our emotions and discuss the day. We cooked various dishes on the fire, sang songs to the guitar and told each other stories. The atmosphere was warm and cozy, and communication with friends was relaxed and sincere.&lt;/p&gt;
+&lt;p&gt;A week spent in the Gobi Desert was a real discovery for me. I learned a lot about nature and learned to appreciate the beauty of the world around me. This trip helped me take a break from the hustle and bustle of the city and recharge my batteries with positivity for a long time to come.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>https://example.com/post/get-started/</link>
+      <link>http://localhost:1313/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/get-started/</guid>
+      <guid>http://localhost:1313/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -604,9 +604,9 @@ Crash --&amp;gt; [*]
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>https://example.com/post/second-brain/</link>
+      <link>http://localhost:1313/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/second-brain/</guid>
+      <guid>http://localhost:1313/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -708,9 +708,9 @@ Crash --&amp;gt; [*]
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>https://example.com/post/data-visualization/</link>
+      <link>http://localhost:1313/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/data-visualization/</guid>
+      <guid>http://localhost:1313/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -721,7 +721,7 @@ Crash --&amp;gt; [*]
 
 
 
-&lt;div id=&#34;chart-681792435&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-358247691&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -739,7 +739,7 @@ Crash --&amp;gt; [*]
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-681792435&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-358247691&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -914,9 +914,9 @@ Crash --&amp;gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>https://example.com/post/teach-courses/</link>
+      <link>http://localhost:1313/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/teach-courses/</guid>
+      <guid>http://localhost:1313/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -969,7 +969,7 @@ Crash --&amp;gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://example.com/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1028,9 +1028,9 @@ data.head()
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>https://example.com/post/project-management/</link>
+      <link>http://localhost:1313/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/project-management/</guid>
+      <guid>http://localhost:1313/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
