@@ -2,34 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/event/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/event/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/event/example/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/event/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/event/"
-                />
-  </url><url>
     <loc>https://muagmar-urzhindorzh.github.io/en/post/</loc>
     <lastmod>2024-08-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -268,188 +240,6 @@
                 href="https://muagmar-urzhindorzh.github.io/en/projects/"
                 />
   </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/post/get-started/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/post/get-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/post/get-started/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/tags/academic/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/tags/academic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/tags/academic/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/tags/hugo-blox/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/tags/hugo-blox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/tags/hugo-blox/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/tags/markdown/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/tags/markdown/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/tags/hugo/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/tags/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/tags/hugo/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/project/pandas/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/project/pandas/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/project/pandas/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/project/pytorch/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/project/pytorch/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/project/pytorch/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/project/scikit/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/project/scikit/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/project/scikit/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/tags/second-brain/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/tags/second-brain/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/tags/second-brain/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/tags/wowchemy/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/tags/wowchemy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/tags/wowchemy/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/post/second-brain/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/post/second-brain/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/post/second-brain/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/post/data-visualization/</loc>
-    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/post/data-visualization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/post/data-visualization/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/post/teach-courses/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/post/teach-courses/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/post/teach-courses/"
-                />
-  </url><url>
     <loc>https://muagmar-urzhindorzh.github.io/en/experience/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -462,20 +252,6 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://muagmar-urzhindorzh.github.io/en/experience/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/tags/hugo-blox-builder/</loc>
-    <lastmod>2023-10-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/tags/hugo-blox-builder/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/tags/hugo-blox-builder/"
                 />
   </url><url>
     <loc>https://muagmar-urzhindorzh.github.io/en/tags/javascript/</loc>
@@ -534,20 +310,6 @@
                 href="https://muagmar-urzhindorzh.github.io/en/teaching/"
                 />
   </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/post/project-management/</loc>
-    <lastmod>2023-10-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/post/project-management/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/post/project-management/"
-                />
-  </url><url>
     <loc>https://muagmar-urzhindorzh.github.io/en/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -562,50 +324,7 @@
                 href="https://muagmar-urzhindorzh.github.io/en/"
                 />
   </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/publication/preprint/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/publication/preprint/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/publication_types/article/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/publication_types/article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/publication_types/article/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/tags/large-language-models/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/tags/large-language-models/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/tags/large-language-models/"
-                />
-  </url><url>
     <loc>https://muagmar-urzhindorzh.github.io/en/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -619,7 +338,6 @@
                 />
   </url><url>
     <loc>https://muagmar-urzhindorzh.github.io/en/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -632,74 +350,17 @@
                 href="https://muagmar-urzhindorzh.github.io/en/publication/"
                 />
   </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    <loc>https://muagmar-urzhindorzh.github.io/en/event/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/publication/journal-article/"
+                href="https://muagmar-urzhindorzh.github.io/ru/event/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/publication/journal-article/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/publication_types/article-journal/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/publication_types/article-journal/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/publication_types/article-journal/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/tags/source-themes/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/tags/source-themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/tags/source-themes/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/publication/conference-paper/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/publication/conference-paper/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/publication/conference-paper/"
-                />
-  </url><url>
-    <loc>https://muagmar-urzhindorzh.github.io/en/publication_types/paper-conference/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-ru"
-                href="https://muagmar-urzhindorzh.github.io/ru/publication_types/paper-conference/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://muagmar-urzhindorzh.github.io/en/publication_types/paper-conference/"
+                href="https://muagmar-urzhindorzh.github.io/en/event/"
                 />
   </url>
 </urlset>
