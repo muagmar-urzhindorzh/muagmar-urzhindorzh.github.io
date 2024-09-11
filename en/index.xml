@@ -13,6 +13,20 @@
     </image>
     
     <item>
+      <title>How was my last retake?a</title>
+      <link>https://muagmar-urzhindorzh.github.io/en/post/post10_last-week-last-chance/</link>
+      <pubDate>Wed, 11 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://muagmar-urzhindorzh.github.io/en/post/post10_last-week-last-chance/</guid>
+      <description>&lt;p&gt;when i woke up in the morning, i went to the university&lt;/p&gt;
+&lt;img src=&#34;1.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
+&lt;p&gt;Next, I went for a walk a 378 auditory&lt;/p&gt;
+&lt;img src=&#34;2.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
+&lt;p&gt;i wrote a new about a day in a site&lt;/p&gt;
+&lt;img src=&#34;3.jpg&#34; alt=&#34;drawing&#34; width=75%/&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How was my week? x5</title>
       <link>https://muagmar-urzhindorzh.github.io/en/post/post9_last-week/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
@@ -251,7 +265,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-546713829&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-214567839&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -269,7 +283,7 @@ data.head()
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-546713829&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-214567839&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
